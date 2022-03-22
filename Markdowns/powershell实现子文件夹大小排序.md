@@ -42,7 +42,7 @@ $objs |
 
 `Sort-Object` 排序
 
-`Select-Objec`t 筛选
+`Select-Object` 筛选
 
 `Format-Table` 格式化对象打印
 
