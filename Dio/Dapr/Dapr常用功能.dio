@@ -1,0 +1,120 @@
+<mxfile host="65bd71144e">
+    <diagram id="6t8oSupSRpk8Uhc4aX39" name="Page-1">
+        <mxGraphModel dx="2807" dy="1195" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="800" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="18" value="&lt;table style=&quot;box-sizing: border-box; border-collapse: collapse; width: 885.656px; margin-bottom: 1rem; color: rgb(34, 34, 34); display: block; overflow-x: auto; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;&lt;a href=&quot;https://docs.dapr.io/zh-hans/developing-applications/building-blocks/bindings/bindings-overview/&quot; style=&quot;box-sizing: border-box; color: rgb(49, 118, 217); text-decoration: none; background-color: transparent; font-size: 13px;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: 700; font-size: 13px;&quot;&gt;资源绑定&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;Dapr的Bindings是建立在事件驱动架构的基础之上的。通过建立触发器与资源的绑定，&lt;br style=&quot;font-size: 13px;&quot;&gt;可以从任何外部源（例如数据库，队列，文件系统等）接收和发送事件，而无需借助&lt;br style=&quot;font-size: 13px;&quot;&gt;消息队列，即可实现灵活的业务场景。&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;strokeColor=none;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="1064" y="623" width="650" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;table style=&quot;box-sizing: border-box; border-collapse: collapse; width: 885.656px; margin-bottom: 1rem; color: rgb(34, 34, 34); display: block; overflow-x: auto; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; background-color: rgba(0, 0, 0, 0.05); font-size: 13px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;&lt;a href=&quot;https://docs.dapr.io/zh-hans/developing-applications/building-blocks/pubsub/pubsub-overview/&quot; style=&quot;box-sizing: border-box; color: rgb(49, 118, 217); text-decoration: none; background-color: transparent; font-size: 13px;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: 700; font-size: 13px;&quot;&gt;发布订阅&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;发布事件和订阅主题。&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="543" width="290" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;table style=&quot;box-sizing: border-box; border-collapse: collapse; width: 885.656px; margin-bottom: 1rem; color: rgb(34, 34, 34); display: block; overflow-x: auto; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box; font-size: 11px;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; font-size: 11px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 11px;&quot;&gt;&lt;a href=&quot;https://docs.dapr.io/zh-hans/developing-applications/building-blocks/state-management/state-management-overview/&quot; style=&quot;box-sizing: border-box; color: rgb(49, 118, 217); text-decoration: none; background-color: transparent; font-size: 11px;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: 700; font-size: 11px;&quot;&gt;状态管理&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 11px;&quot;&gt;独立的状态管理，使用键/值对作为存储机制，可以轻松的使长时运行、&lt;br style=&quot;font-size: 11px;&quot;&gt;高可用的有状态服务和无状态服务共同运行在您的应用程序中。 状态存&lt;br style=&quot;font-size: 11px;&quot;&gt;储是可插拔的，目前支持使用Azure CosmosDB、 Azure SQL Server、 &lt;br style=&quot;font-size: 11px;&quot;&gt;PostgreSQL,、AWS DynamoDB、Redis 作为状态存储介质。&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry y="323" width="550" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.dapr.io/images/overview.png;fontSize=13;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="313" width="520" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Dapr提供了一些常用功能的最佳实践，开发人员可以使用标准模式进行微服务应用的构建，并部署到任意环境中。 Dapr 通过提供分布式构建块来实现此目的。&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="462.5" y="593" width="575" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=13;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="530" y="593" as="sourcePoint"/>
+                        <mxPoint x="530" y="503" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.173;exitY=0.222;exitDx=0;exitDy=0;strokeColor=#000000;strokeWidth=3;exitPerimeter=0;entryX=0.402;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=13;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="580" y="403"/>
+                            <mxPoint x="472" y="403"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=-0.003;entryY=0.672;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Helvetica;fontSize=13;strokeColor=#000000;strokeWidth=3;exitX=0.615;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="770" y="493" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="810" y="498"/>
+                            <mxPoint x="1024" y="498"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.815;exitY=0.1;exitDx=0;exitDy=0;dashed=1;fontFamily=Helvetica;fontSize=13;strokeColor=#8C8C8C;strokeWidth=3;exitPerimeter=0;entryX=0.036;entryY=0.672;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1049.0163269042969" y="366.1791763305664" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="914" y="396"/>
+                            <mxPoint x="1016" y="396"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;dashed=1;fontFamily=Helvetica;fontSize=13;strokeColor=#BABABA;strokeWidth=3;exitX=0.915;exitY=0.656;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1023" y="472"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B83C1D;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="413" width="520" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;table style=&quot;border-collapse: collapse; width: 885.656px; margin-bottom: 1rem; color: rgb(34, 34, 34); display: block; overflow-x: auto; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; background-color: rgba(0, 0, 0, 0.05); font-size: 13px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;&lt;a href=&quot;https://docs.dapr.io/zh-hans/developing-applications/building-blocks/service-invocation/service-invocation-overview/&quot; style=&quot;box-sizing: border-box; color: rgb(49, 118, 217); background-color: transparent; font-size: 13px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700; font-size: 13px;&quot;&gt;服务调用&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;跨服务调用允许进行远程方法调用(包括重试)，不管处于任何位置，只需该服务托管于受支持的环境即可。&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="113" y="243" width="895" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;strokeColor=#000000;strokeWidth=3;entryX=0.454;entryY=1.013;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;fontSize=13;" edge="1" parent="1" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="483" as="sourcePoint"/>
+                        <mxPoint x="541.8000000000002" y="243" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="650" y="493"/>
+                            <mxPoint x="450" y="493"/>
+                            <mxPoint x="250" y="493"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.423;exitY=0.778;exitDx=0;exitDy=0;strokeColor=#000000;strokeWidth=3;exitPerimeter=0;entryX=0.276;entryY=0;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;fontSize=13;" edge="1" parent="1" source="7" target="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="659.96" y="502.96000000000004" as="sourcePoint"/>
+                        <mxPoint x="262.5" y="443" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="710" y="513"/>
+                            <mxPoint x="460" y="513"/>
+                            <mxPoint x="320" y="513"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;dashed=1;strokeColor=#009900;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="755" y="487" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="755" y="509"/>
+                            <mxPoint x="1029" y="509"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="&lt;table style=&quot;box-sizing: border-box; border-collapse: collapse; width: 884.328px; margin-bottom: 1rem; color: rgb(34, 34, 34); display: block; overflow-x: auto; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; background-color: rgba(0, 0, 0, 0.05); font-size: 13px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;&lt;a href=&quot;https://docs.dapr.io/zh-hans/developing-applications/building-blocks/actors/actors-overview/&quot; style=&quot;box-sizing: border-box; color: rgb(49, 118, 217); text-decoration: none; background-color: transparent; font-size: 13px;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: 700; font-size: 13px;&quot;&gt;Actors&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;Actor模型 = 状态 + 行为 + 消息。&lt;br style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt;&#9;&lt;/span&gt;一个应用/服务由多个Actor组成，每个Actor都是一个独立的运行单元，&lt;br style=&quot;font-size: 13px;&quot;&gt;拥有隔离的运行空间，在隔离的空间内，其有独立的状态和行为，不被外界干预，&lt;br style=&quot;font-size: 13px;&quot;&gt;Actor之间通过消息进行交互，而同一时刻，每个Actor只能被单个线程执行，&lt;br style=&quot;font-size: 13px;&quot;&gt;这样既有效避免了数据共享和并发问题，又确保了应用的伸缩性。 &lt;br style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Dapr 在Actor模式中提供了很多功能，包括并发，状态管理，用于 &lt;br style=&quot;font-size: 13px;&quot;&gt;actor 激活/停用的生命周期管理，以及唤醒 actor 的计时器和提醒器。&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="1082" y="464" width="550" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;table style=&quot;box-sizing: border-box; border-collapse: collapse; width: 884.328px; margin-bottom: 1rem; color: rgb(34, 34, 34); display: block; overflow-x: auto; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;&lt;a href=&quot;https://docs.dapr.io/zh-hans/concepts/observability-concept/&quot; style=&quot;box-sizing: border-box; color: rgb(49, 118, 217); text-decoration: none; font-size: 13px;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: 700; font-size: 13px;&quot;&gt;可观测性&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;Dapr记录指标，日志，链路以调试和监视Dapr和用户应用的运行状况。 &lt;br style=&quot;font-size: 13px;&quot;&gt;Dapr支持分布式跟踪，其使用W3C跟踪上下文标准和开放式遥测技术，&lt;br style=&quot;font-size: 13px;&quot;&gt;可以轻松地诊断在生产环境中服务间的网络调用，并发送到不同的监视工具。&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Helvetica;labelBackgroundColor=#E0E0E0;" vertex="1" parent="1">
+                    <mxGeometry x="776" y="115" width="471" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.75;exitY=0.222;exitDx=0;exitDy=0;entryX=0.223;entryY=1.031;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontSize=13;strokeColor=#A0C2D6;strokeWidth=3;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="24">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="880" y="258"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="&lt;table style=&quot;border-collapse: collapse; width: 884.328px; margin-bottom: 1rem; color: rgb(34, 34, 34); display: block; overflow-x: auto; font-size: 13px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; background-color: rgba(0, 0, 0, 0.05); font-size: 13px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;&lt;a href=&quot;https://docs.dapr.io/developing-applications/building-blocks/secrets/secrets-overview/&quot; style=&quot;box-sizing: border-box; color: rgb(49, 118, 217); font-size: 13px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700; font-size: 13px;&quot;&gt;Secrets&lt;/span&gt;&lt;/a&gt;&amp;nbsp;Dapr 提供了密钥管理，支持与公有云和本地的Secret存储集成，以供应用检索使用。&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="1022" y="292" width="894" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;table style=&quot;box-sizing: border-box; border-collapse: collapse; width: 884.328px; margin-bottom: 1rem; color: rgb(34, 34, 34); display: block; overflow-x: auto; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;&lt;a href=&quot;https://docs.dapr.io/developing-applications/building-blocks/configuration/configuration-api-overview/&quot; style=&quot;box-sizing: border-box; color: rgb(30, 83, 160); text-decoration: none; background-color: transparent; font-size: 13px;&quot;&gt;&lt;strong style=&quot;box-sizing: border-box; font-weight: 700; font-size: 13px;&quot;&gt;Configuration&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; font-weight: 400; padding: 0.75rem; vertical-align: top; border-top: 1px solid rgb(222, 226, 230); font-size: 13px;&quot;&gt;&lt;font style=&quot;box-sizing: border-box; font-size: 13px;&quot;&gt;‎配置 API 使您能够从配置存储中检索和订阅应用程序配置项目&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
+                    <mxGeometry x="1068.0012927246094" y="361.00260284423825" width="540" height="68" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
