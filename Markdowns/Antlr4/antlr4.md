@@ -21,7 +21,7 @@ It's also a good idea to put this in your .bash_profile or whatever your startup
 
 ```bash
 $ cd /usr/local/lib
-$ curl -O https://www.antlr.org/download/antlr-4.9-complete.jar
+$ curl -O https://www.antlr.org/download/antlr-4.10.1-complete.jar
 # 后面的写到 .bashrc 中
 $ export CLASSPATH=".:/usr/local/lib/antlr-4.9-complete.jar:$CLASSPATH"
 $ alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.9-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
