@@ -100,11 +100,7 @@ https://www.cnblogs.com/gxz-sw/p/9754975.html
 ### 第一个小问题maven生成xml版本。默认的是2.3，修改为3
 其实改不改无所谓的。放一个链接：[（亲测解决）Idea创建Maven Web工程的web.xml版本问题解决](https://blog.csdn.net/sinat_34104446/article/details/82895337)
 
-### 写界面
-使用html
+### servlet常见错误
+![asd](https://gitcode.net/archive/images/-/raw/master/20220815/servlet%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF.png)
 
-## SpringMVC
-
-## SSH 和 SSM 
-
-## SpringBoot （公司暂时没用，可以后放）
+*20220805 确实没时间继续写这个文章，但还是会继续把这个流程顺完，如何用vscode开发一个java项目*

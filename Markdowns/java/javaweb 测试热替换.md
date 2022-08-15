@@ -13,7 +13,7 @@ mvn clean package
 这样在target目录下就会有project_name.war包了，右键该文件，点击`Debug on Tomcat Server`，这样就会启动调试，你打一个断点或者新增一个断点都会触发，基本的调试就不再赘述了。
 
 点击调试会出现调试工具面板  
-![./debug.png](./javaweb+测试热替换/debug.PNG)
+![./debug.png](https://gitcode.net/archive/images/-/raw/master/20220815/debug.PNG)
 
 从左到右依次为 `暂停/启动` `单步跳过` `单步调试` `单步跳出` `重启` `断开连接` `热替换`
 
@@ -30,14 +30,14 @@ mvn clean package
 
 0. 未修改是的显示
 
-![](./javaweb+测试热替换/test1.png)
+![](https://gitcode.net/archive/images/-/raw/master/20220815/test1.PNG)
 
 1. 修改的内容
 
-![](./javaweb+测试热替换/updatejavacode.png)
+![](https://gitcode.net/archive/images/-/raw/master/20220815/updatejavacode.PNG)
 
 2. 点击一下热替换
 
-![](./javaweb+测试热替换/test2.png)
+![](https://gitcode.net/archive/images/-/raw/master/20220815/test2.PNG)
 
 <!-- 20200413 -->
