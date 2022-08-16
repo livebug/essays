@@ -2,7 +2,7 @@
 
 先上code：
 
-```powershell
+```
 # 输入根路径
 param ($root = $(throw "必须输入一个目录才可以开始."))
 
