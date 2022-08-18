@@ -4,10 +4,17 @@ title: Hello World
 
 # C# Markdown组件
 
+GITHUB C#实现的Markdown:
 https://github.com/xoofx/markdig
 
+GITHUB:为ASPNETCORE做的适配：
 https://github.com/RickStrahl/Westwind.AspNetCore.Markdown
 
+`Westwind.AspNetCore.Markdown`的实现说明解释：
+https://www.codemag.com/Article/1811071/Marking-up-the-Web-with-ASP.NET-Core-and-Markdown
+
+---
+*以下都是瞎测这玩的*
 
 ## 图
 ```mermaid
